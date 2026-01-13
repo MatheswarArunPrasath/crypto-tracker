@@ -5,7 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { GoogleLogin } from "@react-oauth/google";
 import { jwtDecode } from "jwt-decode";
 import { toast } from "react-toastify";
-import Button from "../button/button"; // ✅ import your Button
+import Button from "../button/Button"; // ✅ import your Button
 
 function Header() {
   const [user, setUser] = useState(null);

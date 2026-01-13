@@ -1,6 +1,6 @@
 import React from 'react'
 import "./styles.css"
-import Button from '../../common/button/button'
+import Button from '../../common/button/Button'
 import iphone from '../../../assets/iphone.png'
 import gradient from '../../../assets/gradient.png'
 import { motion } from "framer-motion"
