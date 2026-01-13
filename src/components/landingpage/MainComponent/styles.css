@@ -1,0 +1,62 @@
+.flex-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 3rem;
+}
+
+.track-crypto-heading, .real-time-heading{
+    font-size: 6rem;
+    margin: 0;
+}
+
+.track-crypto-heading{
+    color: var(--white);
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: var(--white);
+}
+
+.track-crypto-heading:hover{
+    color: var(--black);
+    -webkit-text-stroke-color: var(--white);
+    transition: all 0.3s;
+}
+
+.real-time-heading{
+    color: var(--blue);
+}
+
+.info-text{
+    font-size: 1.2rem;
+    color: var(--grey);
+}
+
+.btn-flex{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.phone-container{
+    width: 50%;
+    position: relative;
+    padding: 1rem;
+}
+
+.iphone{
+    position: absolute;
+    z-index: 100;
+    min-width: 350px;
+    width: 50%;
+    right: 0;
+}
+
+.gradient{
+    position: absolute;
+    min-width: 300px;
+    width:40%;
+    top: 4rem;
+    right: 0;
+}
