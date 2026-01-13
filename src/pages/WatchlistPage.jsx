@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Header from "../components/common/Header/header";
 import TabsComponent from "../components/dashboard/Tabs/TabsComponent";
-import Button from "../components/common/Button/Button";
+import Button from "../components/common/button/Button";
 import axios from "axios";
 import { toast } from "react-toastify";
 
